@@ -1,4 +1,4 @@
-# [Power BI] Customer Behaviour Analysis
+![image](https://github.com/user-attachments/assets/ef13566a-397d-4ac1-890c-54062512057c)# [Power BI] Customer Behaviour Analysis
 
 ## I. Introduction
 <p>This project leverages the AdventureWorks database to conduct factors affecting the purchase of goods to serve the production of businesses,providing actionable insights for strategic purchases. Analysis classifies suppliers into separate segments based on their supply behaviors such as: Price, quality, delivery time. Tailored recommendations are provided to improve production availability, replace substandard suppliers, thereby optimizing marketing strategies and improving overall business performance. This Power BI project provides visual dashboards that enable data-driven decision making for effective supplier relationship management.</p>
@@ -68,3 +68,32 @@ Brainstorming
 ![image](https://github.com/Tien-Dung-86/PowerBI-Customer-Behaviour-Dashboard/blob/master/Visualization/2_Overview.png)
 ### View 2: Vendor's Detail
 ![image](https://github.com/Tien-Dung-86/PowerBI-Customer-Behaviour-Dashboard/blob/master/Visualization/3_Vendor_analysis.png)
+
+## IV. Insights
+### Purchasing
+- The number of orders increases gradually each year
+- In 2014, the number of orders reached 2.6K along with the number of products purchased was 1.5M, double that of 2013.
+- Indiana Bicycle Center is the vendor with the largest quantity, up to 2.5K quantity ordered
+- There are up to 32 suppliers achieving quantity ordered of over 1K
+- With a rejection rate of 2.14%, it shows that the possibility of the order being completed is very good.
+- With goods that are in pending status, we need to consider the reason why? may be waiting for inspection or being shipped
+
+### Vendor
+- There are 104 Vendors: 102 Vendors have Credit Rating from average or higher
+- There are 2 vendor that are below average: Merit Bikes and Victory Bikes <br/>
+      (1) Merit Bikes is the Vendor with the highest revenue with the number of products sold being 1100 with the highest price ($82.83) compared to other products, and the number of rejected products is 55 products.
+      (2) Victory Bikes has a sales volume of only 6 and a delivery lead time of 19 (Average Lead Time is 19.45)
+=> For vendors with Credit rating below average, there needs to be specific evaluation criteria to see the problems that vendors encounter that lead to low reputation levels
+- Average Lead time is 19.45
+- There are only 4 vendors with Lead times greater than average: Fitness Association (55), Green Lake Bike Company (45), Interational Trek Center (40.71), Integrate Sport Products (40.50)
+
+
+## V. Recommendations
+- For vendors with Credit rating below average, there needs to be specific evaluation criteria to see the problems that vendors encounter that lead to low reputation levels => find solutions to improve reputation levels. => increase efficiency in business <br/>
+      (1) About products: Improve product quality => reduce the number of returned goods <br/>
+      (2) Regarding delivery time: Arrange delivery time in accordance with schedule, for vendors with large delivery time => need to have solutions to optimize delivery time to meet or exceed production schedule => increase high productivity
+
+
+
+
+
