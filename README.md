@@ -1,4 +1,4 @@
-[Power BI] Vendor Behaviour Analysis
+# [Power BI] Vendor Behaviour Analysis
 
 ## I. Introduction
 <p>This project leverages the AdventureWorks database to conduct factors affecting the purchase of goods to serve the production of businesses,providing actionable insights for strategic purchases. Analysis classifies suppliers into separate segments based on their supply behaviors such as: Price, quality, delivery time. Tailored recommendations are provided to improve production availability, replace substandard suppliers, thereby optimizing marketing strategies and improving overall business performance. This Power BI project provides visual dashboards that enable data-driven decision making for effective supplier relationship management.</p>
